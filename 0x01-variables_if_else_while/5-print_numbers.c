@@ -7,15 +7,17 @@
  */
 int main(void)
 {
-  int i;
+    int i;
 
-  for (i = 0; i < 10; i++)
-  {
-    putchar(i + '0'); /* Convert integer to character and print i */
-  }
+    for (i = 0; i < 10; i++)
+    {
+        if (i != 2 && i != 4)
+        {
+            putchar(i + '0');
+        }
+    }
+    putchar('\n');
 
-  putchar('\n');
-
-  return (0);
+    return (0);
 }
 

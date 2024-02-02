@@ -1,1 +1,3 @@
-0x1A. C - Hash tables by samibirhanu1
+0x1A. C - Hash tables
+
+created by madega mpho 
